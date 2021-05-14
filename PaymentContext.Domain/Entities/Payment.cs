@@ -14,15 +14,15 @@ namespace PaymentContext.Domain.Entities
         public decimal Total { get; set; }
         public decimal TotalPaid { get; set; }
     }
-    public class BoletoPayment
+    public class BoletoPayment : Payment
     {
 
     }
-    public class CreditCardPayment
+    public class CreditCardPayment : Payment
     {
 
     }
-    public class PayPalPayment
+    public class PayPalPayment : Payment
     {
 
     }
